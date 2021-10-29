@@ -40,12 +40,6 @@ public class Solution {
 			list.next = new ListNode(5, list.next);
 		}
 		
-//		while(list.next != null) {
-//			list = list.next;
-//			int val = list.val;
-//			System.out.println("val:"+ val);
-//			
-//		}
 		deleteDuplicates(list);
 		while(list.next != null) {
 			list = list.next;
