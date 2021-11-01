@@ -51,7 +51,6 @@ public class Array {
 			data[i + 1] = data[i];
 		}
 		data[index] = e;
-		
 	}
 	
 }

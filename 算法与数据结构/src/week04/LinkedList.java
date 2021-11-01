@@ -145,6 +145,7 @@ public class LinkedList<E> {
 	public E removeFirst() {
 		return remove(0);
 	}
+	
 	// 删除链表中的最后一个元素
 	public E removeLast() {
 		System.out.println("size: "+ size);
