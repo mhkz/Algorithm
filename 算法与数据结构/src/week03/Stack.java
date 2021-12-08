@@ -1,9 +1,13 @@
-package Stack;
+package week03;
 
 public interface Stack<E> {
-	void push();
+	void push(E e);
+
 	E pop();
+
 	E peek();
+
 	int getSize();
+
 	boolean isEmpty();
 }
