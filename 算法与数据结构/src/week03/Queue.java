@@ -9,5 +9,6 @@ public interface Queue<E> {
 
 	E getFront();
 
+
 	void enqueue(E e);
 }
