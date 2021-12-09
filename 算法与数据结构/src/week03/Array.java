@@ -72,7 +72,7 @@ public class Array<E> {
 	    return data[index];
 	  }
 
-	  public E getFirst(int index) {
+	  public E getFirst() {
 	    return get(0);
 	  }
 
