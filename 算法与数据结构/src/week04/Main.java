@@ -17,13 +17,26 @@ public class Main {
 //		
 //		linkedList.removeLast();
 //		System.out.println(linkedList);
-		LinkedListStack<Integer> linkedList = new LinkedListStack<>();
-		for(int i = 0; i < 5; i ++) {
-			linkedList.push(i);
-			System.out.println(linkedList);
-		}
 		
-		linkedList.pop();
-		System.out.println(linkedList);
+		
+//		LinkedListStack<Integer> linkedList = new LinkedListStack<>();
+//		for(int i = 0; i < 5; i ++) {
+//			linkedList.push(i);
+//			System.out.println(linkedList);
+//		}
+//		
+//		linkedList.pop();
+//		System.out.println(linkedList);
+		
+		// 队列测试
+		
+		// 队列测试
+		LinkedListQueue<Integer>  queue= new LinkedListQueue<>();
+		for (int i = 0; i < 5; i++) {
+			queue.enqueue(i);
+			System.out.println(queue);
+		}
+		queue.dequeue();
+		System.out.println(queue);
 	}
 }
